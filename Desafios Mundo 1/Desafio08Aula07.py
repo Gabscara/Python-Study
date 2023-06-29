@@ -1,0 +1,10 @@
+M = float(input('Quantos metros?'))
+km = (M*0.001)
+hm = (M*0.01)
+dam = (M*0.1)
+dm = (M*10)
+cm = (M*100)
+mm = (M*1000)
+
+print(f'A metragem {M}, são {cm} centimetros e {mm} milimetros')
+print(f'A metragem {M} em KM {km}\nA metragem {M} em HM {hm}\nA metragem {M} em DAM {dam}\nA metragem {M} em DM {dm}\nA metragem {M} em CM {cm}\nA metragem {M} em MM {mm}')
