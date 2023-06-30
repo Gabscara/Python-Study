@@ -74,9 +74,6 @@ print(f'\033[7;34;40m{"-=-"*20}\033[m\n'
       f'\033[1;35m{int(horaslivred.__ceil__()):,.0f} '
       f'HORAS LIVRES\033[m em um DIA')
 
-print('\033[1;31mAVISO: O CALCULO CONSIDERA SOMENTE PARA OS DIAS TRABALHADOS!!\033[m')
-
-
 print(f'\033[7;34;40m{"-=-"*20}\033[m\n'
       f'\033[1;33mSobre o tempo trabalho:\033[m\n'
       f'\033[7;34;40m{"-=-"*20}\033[m\n'
